@@ -32,6 +32,10 @@
             this.txt_n1 = new System.Windows.Forms.TextBox();
             this.btn_n1 = new System.Windows.Forms.Button();
             this.lstRisultati = new System.Windows.Forms.ListBox();
+            this.lbl_n2 = new System.Windows.Forms.Label();
+            this.txt_n2 = new System.Windows.Forms.TextBox();
+            this.btn_n2 = new System.Windows.Forms.Button();
+            this.lbl_n3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl_n1
@@ -45,7 +49,7 @@
             // 
             // txt_n1
             // 
-            this.txt_n1.Location = new System.Drawing.Point(13, 30);
+            this.txt_n1.Location = new System.Drawing.Point(16, 29);
             this.txt_n1.Name = "txt_n1";
             this.txt_n1.Size = new System.Drawing.Size(100, 20);
             this.txt_n1.TabIndex = 1;
@@ -65,14 +69,53 @@
             this.lstRisultati.FormattingEnabled = true;
             this.lstRisultati.Location = new System.Drawing.Point(12, 106);
             this.lstRisultati.Name = "lstRisultati";
-            this.lstRisultati.Size = new System.Drawing.Size(120, 95);
+            this.lstRisultati.Size = new System.Drawing.Size(142, 134);
             this.lstRisultati.TabIndex = 4;
+            // 
+            // lbl_n2
+            // 
+            this.lbl_n2.AutoSize = true;
+            this.lbl_n2.Location = new System.Drawing.Point(272, 13);
+            this.lbl_n2.Name = "lbl_n2";
+            this.lbl_n2.Size = new System.Drawing.Size(94, 13);
+            this.lbl_n2.TabIndex = 5;
+            this.lbl_n2.Text = "Inserire una lettera";
+            // 
+            // txt_n2
+            // 
+            this.txt_n2.Location = new System.Drawing.Point(275, 30);
+            this.txt_n2.Name = "txt_n2";
+            this.txt_n2.Size = new System.Drawing.Size(100, 20);
+            this.txt_n2.TabIndex = 6;
+            // 
+            // btn_n2
+            // 
+            this.btn_n2.Location = new System.Drawing.Point(275, 73);
+            this.btn_n2.Name = "btn_n2";
+            this.btn_n2.Size = new System.Drawing.Size(91, 27);
+            this.btn_n2.TabIndex = 7;
+            this.btn_n2.Text = "CONTROLLA";
+            this.btn_n2.UseVisualStyleBackColor = true;
+            this.btn_n2.Click += new System.EventHandler(this.btn_n2_Click);
+            // 
+            // lbl_n3
+            // 
+            this.lbl_n3.AutoSize = true;
+            this.lbl_n3.Location = new System.Drawing.Point(272, 106);
+            this.lbl_n3.Name = "lbl_n3";
+            this.lbl_n3.Size = new System.Drawing.Size(43, 13);
+            this.lbl_n3.TabIndex = 8;
+            this.lbl_n3.Text = "risultato";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(419, 227);
+            this.ClientSize = new System.Drawing.Size(444, 250);
+            this.Controls.Add(this.lbl_n3);
+            this.Controls.Add(this.btn_n2);
+            this.Controls.Add(this.txt_n2);
+            this.Controls.Add(this.lbl_n2);
             this.Controls.Add(this.lstRisultati);
             this.Controls.Add(this.btn_n1);
             this.Controls.Add(this.txt_n1);
@@ -90,6 +133,10 @@
         private System.Windows.Forms.TextBox txt_n1;
         private System.Windows.Forms.Button btn_n1;
         private System.Windows.Forms.ListBox lstRisultati;
+        private System.Windows.Forms.Label lbl_n2;
+        private System.Windows.Forms.TextBox txt_n2;
+        private System.Windows.Forms.Button btn_n2;
+        private System.Windows.Forms.Label lbl_n3;
     }
 }
 

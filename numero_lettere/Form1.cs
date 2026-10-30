@@ -55,5 +55,13 @@ namespace numero_lettere
                     
             }
         }
+
+        private void btn_n2_Click(object sender, EventArgs e)
+        {
+            string lettera = lbl_n2.Text;
+
+
+
+        }
     }
 }
